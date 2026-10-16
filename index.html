@@ -42,6 +42,15 @@
         <!-- ---- Sección 1: Catálogo (CSR) ---- -->
         <section>
         <h2>Catálogo</h2>
+        <!-- Botones de filtro por categoría: "Todos" muestra todo el catálogo;
+        los demás llaman a filtrarCatalogo(categoria) en csr.js y solo
+        dejan visibles las tarjetas de esa categoría. -->
+        <div class="filtros" role="group" aria-label="Filtrar por categoría">
+        <button type="button" class="filtro filtro--activo" data-categoria="Todos">Todos</button>
+        <button type="button" class="filtro" data-categoria="Coyotas">Coyotas</button>
+        <button type="button" class="filtro" data-categoria="Pan tradicional">Pan tradicional</button>
+        <button type="button" class="filtro" data-categoria="Bebidas">Bebidas</button>
+        </div>
         <!-- Este div empieza VACÍO a propósito: si ves el código fuente (Ctrl+U)
             no verás ningún producto aquí. JavaScript (csr.js) lo llena DESPUÉS
             de que la página ya cargó: por eso es "Renderizado en el Cliente" (CSR). -->

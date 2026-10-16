@@ -59,6 +59,36 @@
     box-shadow: 0 4px 14px rgba(154, 52, 18, .10);
     }
 
+    /* .filtros: fila de botones de categoría encima del grid */
+    .filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    }
+
+    /* .filtro: cada botón de categoría */
+    .filtro {
+    background: transparent;
+    color: #9A3412;
+    border: 1px solid #B45309;
+    border-radius: 999px;
+    padding: .35rem .9rem;
+    font-size: .85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s ease, color .15s ease;
+    }
+    .filtro:hover { background: rgba(180, 83, 9, .12); }
+
+    /* .filtro--activo: categoría seleccionada actualmente */
+    .filtro--activo {
+    background: #9A3412;
+    color: #FEF3C7;
+    border-color: #9A3412;
+    }
+    .filtro--activo:hover { background: #7c2910; }
+
     /* .grid: acomoda las tarjetas de producto en columnas que se ajustan solas */
     .grid {
     display: grid;
