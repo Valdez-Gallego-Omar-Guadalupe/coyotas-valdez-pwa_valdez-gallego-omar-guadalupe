@@ -11,7 +11,7 @@
     <!-- Estas 3 líneas son las que convierten este sitio en una PWA instalable -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0e6b5c">
-    <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<!--     <link rel="icon" href="icons/icon.svg" type="image/svg+xml"> -->
 
     <link rel="stylesheet" href="css/estilos.css">
 
@@ -82,13 +82,13 @@
         </section>
 
         <!-- ---- Sección 2: Carrito ---- -->
-<!--         <section>
+        <section>
         <h2>Carrito</h2>
         <ul id="carrito-lista"></ul>
         <p>Total: $<span id="carrito-total">0</span></p>
         <button id="btn-sincronizar" type="button">Sincronizar carrito</button>
         <p id="carrito-mensaje" class="mensaje"></p>
-        </section> -->
+        </section>
 
         <!-- ---- Sección 3: Notificaciones ---- -->
 <!--         <section>
@@ -115,7 +115,7 @@
 
     <!-- Cargamos los scripts al final del <body>: así el HTML ya existe
         cuando el JavaScript intenta buscar los elementos con document.getElementById -->
-    <!-- <script src="js/carrito.js"></script> -->
+    <script src="js/carrito.js"></script>
     <script src="js/csr.js"></script>
     <!-- <script src="js/notificaciones.js"></script>  -->
     <!-- Leaflet debe cargar ANTES de geolocalizacion.js: ese script usa el
