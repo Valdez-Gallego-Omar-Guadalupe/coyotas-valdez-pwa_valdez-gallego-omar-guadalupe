@@ -1,0 +1,33 @@
+    {
+    "id": "./",
+    "name": "Coyotas Valdez",
+    "short_name": "Coyotas Valdez",
+    "description": "venta de coyotas valdez catalogo y carrito",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "categories": ["shopping", "education"],
+    "background_color": "#FEF3C7",
+    "theme_color": "#B45309",
+    "icons": [
+        {
+        "src": "icons/Valdez_Gallego_Omar_Gpe_Logo.jpg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "any"
+        },
+        {
+        "src": "icons/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+        },
+        {
+        "src": "icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+        }
+    ]
+    }
